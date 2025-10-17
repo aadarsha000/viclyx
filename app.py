@@ -46,4 +46,4 @@ def serve_blog_b6():
     return send_from_directory('.', 'b6.html')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0')
